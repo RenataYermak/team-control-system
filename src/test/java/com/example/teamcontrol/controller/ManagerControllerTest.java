@@ -40,6 +40,7 @@ class ManagerControllerTest extends IntegrationTestBase {
                 .andExpect(jsonPath("$").isArray())
                 .andExpect(jsonPath("$[0].id").exists());
     }
+
     @Test
     void findById() throws Exception {
         mockMvc.perform(get(URL_REST_PREFIX + "/" + MANAGER_ID_ONE))

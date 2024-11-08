@@ -7,9 +7,7 @@ import com.example.teamcontrol.database.querydsl.QPredicates;
 import com.example.teamcontrol.dto.managerDto.ManagerFilter;
 import com.querydsl.jpa.impl.JPAQuery;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import java.util.List;
-
 
 import lombok.AllArgsConstructor;
 
