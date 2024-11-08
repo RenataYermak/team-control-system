@@ -9,7 +9,6 @@ import com.example.teamcontrol.dto.employeeDto.EmployeeFilter;
 import com.querydsl.jpa.impl.JPAQuery;
 
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import java.util.List;
 
 

@@ -5,7 +5,7 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class ConstantUtil {
 
-    public static final Integer ALL_POSITIONS= 2;
+    public static final Integer ALL_POSITIONS = 2;
     public static final Integer POSITION_ID_ONE = 1;
     public static final Integer POSITION_ID_TWO = 2;
     public static final Long EMPLOYEE_ID_ONE = 1L;

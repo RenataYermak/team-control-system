@@ -2,7 +2,6 @@ package com.example.teamcontrol.mapper.employeeMapper;
 
 import com.example.teamcontrol.database.entity.Employee;
 import com.example.teamcontrol.database.entity.Manager;
-import com.example.teamcontrol.database.entity.OtherEmployee;
 import com.example.teamcontrol.database.repository.ManagerRepository;
 import com.example.teamcontrol.dto.employeeDto.EmployeeCreatEditDto;
 import com.example.teamcontrol.mapper.Mapper;
