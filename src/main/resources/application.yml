@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/team_control
+    username: postgres
+    password: 1212
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties.hibernate:
+      show_sql: true
+      format_sql: true
+      hbm2ddl.auto: validate
+    open-in-view: false
+
+apiVersion: '@pom.version@'
